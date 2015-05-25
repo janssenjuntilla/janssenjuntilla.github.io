@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+{% if page.cover %}
+<div class="cover-photo">
+    <img src="{{ page.cover }}">
+</div>
+{% endif %}
+<header>
+    <h1>{{ page.title }}</h1>
+    <span class="date-written">Written on {{ page.date | date: "%b %-d, %Y" }}</span>
+</header>
+<section class="content">
+    {{ content }}
+</section>
+<div class="article-end"><div></div></div>
+<footer>
+    {% if page.previous %}
+    <a class="previous-article" href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; {{ page.previous.title|truncatewords:7 }}</a>
+    {% endif %}
+
+    {% if page.next %}
+    <a class="next-article" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title|truncatewords:7 }} &raquo;</a>
+    {% endif %}
+</footer>

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+
+    <ul class="post-list">
+        {% for post in site.posts %}
+            <article>
+                <header>
+                    <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+                    <span class="date-written">Written on {{ post.date | date: "%b %-d, %Y" }}</span>
+                </header>
+                <section class="content">
+                    <div>{{ post.content | truncatewords:128}}</div>
+                    <a href="{{ post.url | prepend: site.baseurl }}">Read full post &raquo;</a>
+                </section>
+            </article>
+            <br>
+        {% endfor %}
+    </ul>

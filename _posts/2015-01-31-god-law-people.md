@@ -23,9 +23,6 @@ _Do you ever marvel how the universe stays in tact, how stars do not bang each o
 
 #### 4. Pray, pray, pray
 
-
-
-
 When the world has pained you and you feel like no one is going help you, remember God. If you don't believe that there is God, why not assume that there is God. If it seems like you have been a faithful Christian or is battling a secret sin, remember God. Nothing will be taken from you when you try to go that closed room, down on your knees and with your heart broken. 
 
 
